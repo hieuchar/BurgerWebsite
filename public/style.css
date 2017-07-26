@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+      link(href='style.css', rel='stylesheet')
+    body
+        header
+          hi My Page!
+/*
+          nav
+            ul
+              each item in config.menu
+                li
+                  a(href=item[1]) #{item[0]}
+*/
+        div(id='content')
+          block content            
+        footer
