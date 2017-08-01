@@ -1,6 +1,7 @@
 var express = require('express'), 
     pug = require('pug'),
-    path = require('path');
+    path = require('path'),
+    config = require('./config');
 var app = express();
 
 app.set('view engine', 'pug');
