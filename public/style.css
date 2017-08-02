@@ -1,17 +1,34 @@
-doctype html
-html
-    head
-      link(href='style.css', rel='stylesheet')
-    body
-        header
-          hi My Page!
-/*
-          nav
-            ul
-              each item in config.menu
-                li
-                  a(href=item[1]) #{item[0]}
-*/
-        div(id='content')
-          block content            
-        footer
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#headertop {
+  background: #ED0C00;
+  height: 60px;
+  text-align: center;
+  display:table;
+  width:100%;
+}
+
+#logo {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28pt;
+  color: white;
+}
+
+#navbar {
+  background: #C72526;
+  height: 30px;
+}
+
+footer {
+  height: 50px;
+  background: #383CB8;
+  position: absolute;
+  color:white;
+  left:0;
+  bottom:0;
+  width: 100%;
+}
