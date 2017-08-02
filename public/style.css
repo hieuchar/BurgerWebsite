@@ -19,13 +19,14 @@ body {
 }
 
 #navbar {
-  background: #C72526;
+  /* background: linear-gradient(0deg, #C22425, #E01911); */
+  background: #C22425;
   height: 30px;
 }
 
 footer {
+  background: linear-gradient(0deg, #2E2F91, #466BDE);
   height: 50px;
-  background: #383CB8;
   position: absolute;
   color:white;
   left:0;
