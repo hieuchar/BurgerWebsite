@@ -29,7 +29,14 @@ footer {
   height: 50px;
   position: absolute;
   color:white;
+  text-align: center;
+  display:table;
   left:0;
   bottom:0;
   width: 100%;
+}
+
+#footerContent {
+  display: table-cell;
+  vertical-align: middle;
 }
