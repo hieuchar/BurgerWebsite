@@ -40,3 +40,14 @@ footer {
   display: table-cell;
   vertical-align: middle;
 }
+h2{
+  text-align: center;
+}
+#introtext{
+  text-align: center;
+}
+#dessertblock, #burgerblock, #sliderblock {
+    width: calc(100%/3); 
+    display:inline-block;
+    text-align:center;
+}
