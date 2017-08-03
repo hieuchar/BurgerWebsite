@@ -9,11 +9,11 @@ app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname + '/public')));
 
 app.get('/', function(req, res){
-    res.render('index', { title: "Homepage"});
+    res.render('index', { title: "Homepage", config: config});
 });
 
-app.get('/directions', function(req, res){
-    res.render('directions', { title: "Directions"});
+app.get('/:page', function(req, res){
+    res.render(req.params.page, { title: req.params.page, config: config});
 });
 
 app.listen(3000);

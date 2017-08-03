@@ -19,9 +19,9 @@ body {
 }
 
 #navbar {
-  /* background: linear-gradient(0deg, #C22425, #E01911); */
   background: #C22425;
   height: 30px;
+  color: white;
 }
 
 footer {
