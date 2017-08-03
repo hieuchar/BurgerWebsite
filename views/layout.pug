@@ -3,11 +3,17 @@ html
     head
       link(href='style.css', rel='stylesheet')
       link(href='https://fonts.googleapis.com/css?family=Raleway', rel='stylesheet')
+      block title
     body
         header
           div(id="headertop")
             span(id="logo") MediocreBurger
           div(id="navbar")
+            //- nav
+            //-   ul
+            //-     each item in config.menu
+            //-       li
+            //-         a(href=item[1]) #{item[0]}
         div(id='content')
           block content 
     footer

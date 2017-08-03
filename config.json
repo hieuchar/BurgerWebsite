@@ -1,3 +1,10 @@
 {
-  
+  "menu": [
+      ["Home", "/"],
+      ["Burgers", "/burgers"],
+      ["Sides", "/sides"],
+      ["Desserts", "/desserts"],
+      ["Location", "/location"]
+  ]
 }
+
