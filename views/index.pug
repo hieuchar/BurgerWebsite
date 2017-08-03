@@ -2,4 +2,15 @@ extends layout
 
 block content
   h2 Homepage!
+  p(id="introtext") Welcome to Mediocre Burger, home of the world's most mediocre burgers.
+  div(id="wrapper")
+    div(id="burgerblock")
+      img(class="homepageimage" src=images.homepage[0][1])      
+      p Here we have some really mediocre burgers
+    div(id="sliderblock")
+      img(class="homepageimage" src=images.homepage[1][1])
+      p We also offer some mediocre sliders
+    div(id="dessertblock")
+      img(class="homepageimage" src=images.homepage[2][1])
+      p Our desserts are also mediocre
   

@@ -1,0 +1,7 @@
+{
+  "homepage":[
+    ["burger", "./Images/mediocreburger-home.jpg"],
+    ["slider", "./Images/mediocreslider-home.jpg"],
+    ["dessert", "./Images/mediocredessert-home.jpeg"]    
+  ]
+}
