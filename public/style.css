@@ -40,6 +40,39 @@ body {
     font-size: 24px;
 }
 
+#dessertsUL{
+    list-style-type: none;
+    display: list-item;
+}
+
+#dessertsLI{
+    display: inline-block;
+    margin: 20px;
+    width: 500px;
+}
+
+#dessertsimage {
+    width:150px;
+    height:150px;
+    margin: 10px;
+    display:inline;
+    float: left;
+
+}
+
+#dessertsText{
+    display:inline;
+    display: block;
+    float: left;
+    text-align: left;
+
+}
+
+#dessertsDiv{
+    margin: auto;
+    max-height: 500px;
+} 
+
 footer {
     background: linear-gradient(0deg, #2E2F91, #466BDE);
     height: 50px;
@@ -74,9 +107,4 @@ h2{
     max-height:400px;
     width: auto;
     height: auto;
-}
-.dessertsimage {
-    display: inline;
-    max-width:200px;
-    max-height:200px;
 }

@@ -5,8 +5,10 @@
         "dessert": "./Images/mediocredessert-home.jpeg"    
     },
     "desserts":{
-        "dessert1": "./Images/dessertspage-dessert1.jpg",
-        "dessert2": "./Images/dessertspage-dessert2.jpg",
-        "dessert3": "./Images/dessertspage-dessert3.jpg"
+        "dessert1": ["./Images/dessertspage-dessert1.jpg", "Cranberry Surprise", "A nice cranberry cake with a surprise."],
+        "dessert2": ["./Images/dessertspage-dessert2.jpg", "I Heard You Like Oranges","Oranges go with everything! Including cake."],
+        "dessert3": ["./Images/dessertspage-dessert3.jpg", "Chocolate SHOTS", "Chocolate makes people happy and so do shots."],
+        "dessert4": ["./Images/dessertspage-dessert4.jpg", "Banana Split The Check","A split so large you will need to share."],
+        "dessert5": ["./Images/dessertspage-dessert5.jpg", "Granola Time","A nice way to relax before and after a hike or party."]
     }
 }

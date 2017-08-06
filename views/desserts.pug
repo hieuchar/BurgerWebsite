@@ -1,8 +1,12 @@
 extends layout
 
 block content
-    div(id="wrapper")
-        div(id="dessertblock")
-            img(class="dessertsimage" src=images.desserts["dessert1"])
-            img(class="dessertsimage" src=images.desserts["dessert2"])
-            img(class="dessertsimage" src=images.desserts["dessert3"])
+    h2 Desserts
+    div(id="dessertsDiv")
+        ul(id="dessertsUL")
+            each val in images.desserts
+                li(id="dessertsLI")
+                    img(id="dessertsimage" src=val[0])
+                    div(id="dessertsText")    
+                        h3=val[1]
+                        h5=val[2]
