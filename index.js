@@ -15,7 +15,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/:page', function(req, res){
-    res.render(req.params.page, { title: req.params.page, config: config});
+    res.render(req.params.page, { title: req.params.page, images: images, config: config});
 });
 
 app.listen(3000);

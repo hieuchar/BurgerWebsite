@@ -1,50 +1,66 @@
 body {
-  margin: 0px;
-  font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #headertop {
-  background: #ED0C00;
-  height: 60px;
-  text-align: center;
-  display:table;
-  width:100%;
+    background: #ED0C00;
+    height: 60px;
+    text-align: center;
+    display:table;
+    width:100%;
 }
 
 #logo {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 28pt;
-  color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28pt;
+    color: white;
 }
 
 #navbar {
-  background: #C22425;
-  height: 30px;
-  color: white;
+    background: #C22425;
+    height: 30px;
+    color: white;
+}
+
+#map{
+    height: 400px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: medium;
+}
+
+#directionsTitle{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
 }
 
 footer {
-  background: linear-gradient(0deg, #2E2F91, #466BDE);
-  height: 50px;
-  position: absolute;
-  color:white;
-  text-align: center;
-  display:table;
-  left:0;
-  bottom:0;
-  width: 100%;
+    background: linear-gradient(0deg, #2E2F91, #466BDE);
+    height: 50px;
+    position: absolute;
+    color:white;
+    text-align: center;
+    display:table;
+    left:0;
+    bottom:0;
+    width: 100%;
 }
 
 #footerContent {
-  display: table-cell;
-  vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 h2{
-  text-align: center;
+    text-align: center;
 }
 #introtext{
-  text-align: center;
+    text-align: center;
 }
 #dessertblock, #burgerblock, #sliderblock {
     width: calc(100%/3); 
@@ -53,9 +69,14 @@ h2{
 }
 
 .homepageimage {
-  display: inline;
-  max-width:400px;
-  max-height:400px;
-  width: auto;
-  height: auto;
+    display: inline;
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+.dessertsimage {
+    display: inline;
+    max-width:200px;
+    max-height:200px;
 }

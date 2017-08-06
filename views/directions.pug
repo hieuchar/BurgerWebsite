@@ -1,5 +1,18 @@
 extends layout
 
-block content
-  h2 Dis directions page.
-  
+block map
+    div(id='directionsTitle') Directions
+    div(id='map')
+    script.
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTz9R24SV5TucbVLq-_1D2TMi6ILELg60&callback=initMap")
