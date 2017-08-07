@@ -6,14 +6,14 @@ block content
   div(id="wrapper")
     div(id="burgerblock")
       a(href="/burgers")
-        img(class="homepageimage" src=images.homepage["burger"])      
-      p(id="homepageP") Here we have some really mediocre burgers
+        img(class="homepageimage" src=images.homepage["burger"][0])      
+      p(id="homepageP")=images.homepage["burger"][1]
     div(id="sliderblock")
-      a(href="/slides")
-        img(class="homepageimage" src=images.homepage["slider"])
-      p(id="homepageP") We also offer some mediocre sliders
+      a(href="/drinks")
+        img(class="homepageimage" src=images.homepage["drink"][0])
+      p(id="homepageP")=images.homepage["drink"][1] 
     div(id="dessertblock")
       a(href="/desserts")
-        img(class="homepageimage" src=images.homepage["dessert"])
-      p(id="homepageP") Our desserts are also mediocre
+        img(class="homepageimage" src=images.homepage["dessert"][0])
+      p(id="homepageP")=images.homepage["dessert"][1]
   
