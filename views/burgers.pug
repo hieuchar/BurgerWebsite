@@ -1,3 +1,11 @@
 extends layout
-block content
-  h2 Burgers
+block content  
+    h2 Burgers
+    div(id="burgerDiv")
+        ul(id="burgerUL")
+            each val in images.burgers
+                li(id="burgerLI")
+                    img(id="burgerimage" src=val[0])
+                    div(id="burgerText")    
+                        h3=val[1]
+                        h5=val[2]

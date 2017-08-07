@@ -10,5 +10,12 @@
         "dessert3": ["./Images/dessertspage-dessert3.jpg", "Chocolate SHOTS", "Chocolate makes people happy and so do shots."],
         "dessert4": ["./Images/dessertspage-dessert4.jpg", "Banana Split The Check","A split so large you will need to share."],
         "dessert5": ["./Images/dessertspage-dessert5.jpg", "Granola Time","A nice way to relax before and after a hike or party."]
+    },
+    "burgers":{
+        "burger1": ["./Images/burgerpage-burger1.jpg", "Ok Burger", "A burger that isn't so bad."],
+        "burger2": ["./Images/burgerpage-burger2.jpg", "Ok Burger with more sesame seeds","Exactly as the name says."],
+        "pizzaburger": ["./Images/burgerpage-pizzaburger.jpg", "Pizza Burger", "Its a burger with pizza on top"],
+        "portobelloburger": ["./Images/burgerpage-portobello.jpg", "Portobello Mushroom Burger","Its a burger with a portobello mushroom"],
+        "dessert5": ["./Images/burgerpage-baconburger.jpg", "Bacon Burger","A burger with bacon instead of vegetables."]
     }
 }
