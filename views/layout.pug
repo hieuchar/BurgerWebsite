@@ -9,14 +9,14 @@ html
           div(id="headertop")
             a(id="logo" href="/") MediocreBurger
           div(id="navbar")
-            //- nav
-            //-   ul
-            //-     each item in config.menu
-            //-       li
-            //-         a(href=item[1]) #{item[0]}
+            nav
+              ul
+                each item in config.menu
+                  li
+                    a(href=item[1] class="navbutton") #{item[0]}
         div(id='content')
           block content
     block map
     footer
       div(id='footerContent')
-        span 2017       
+        span &copy;2017 MediocreBurgers

@@ -4,6 +4,6 @@
       ["Burgers", "/burgers"],
       ["Drinks", "/drinks"],
       ["Desserts", "/desserts"],
-      ["Location", "/location"]
+      ["Location", "/directions"]
   ]
 }

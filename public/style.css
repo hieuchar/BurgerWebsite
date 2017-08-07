@@ -16,12 +16,40 @@ body {
     vertical-align: middle;
     font-size: 28pt;
     color: white;
+    text-decoration: none;
 }
 
 #navbar {
     background: #C22425;
     height: 30px;
     color: white;
+    text-align: center;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 4px;
+}
+
+#navbar ul li {
+  padding: 4px;
+  padding-right: 15px;
+  display: inline;
+}
+
+.navbutton {
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+  padding: 4px 5px;
+  -webkit-transition: padding 0.5s;
+  transition: padding 0.5s;
+}
+
+.navbutton:hover {
+  padding: 4px 15px;
+  background-color: #ED0C00;
 }
 
 #map{
@@ -95,7 +123,8 @@ body {
 #drinkDiv{
     margin: auto;
     max-height: 500px;
-} 
+}
+
 #drinkUL{
     list-style-type: none;
     display: list-item;
@@ -129,7 +158,6 @@ body {
     max-height: 500px;
 } 
 
-
 footer {
     background: linear-gradient(0deg, #2E2F91, #466BDE);
     height: 50px;
@@ -140,6 +168,10 @@ footer {
     left:0;
     bottom:0;
     width: 100%;
+}
+
+#content {
+  display: block;
 }
 
 #footerContent {
@@ -166,6 +198,4 @@ h2{
 .homepageimage {
     display: inline;
     max-width:calc(100%/1.1); 
-    width: auto;
-    height: auto;
 }
