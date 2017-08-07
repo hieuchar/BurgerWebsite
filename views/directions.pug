@@ -1,7 +1,7 @@
 extends layout
 
 block map
-    div(id='directionsTitle') Directions
+    div(id='directionsText') Directions
     div(id='map')
     script.
       function initMap() {
@@ -15,4 +15,5 @@ block map
           map: map
         });
       }
+    p(id="directionsText") 270 N 8th W, Salt Lake City, UT 84116
     script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTz9R24SV5TucbVLq-_1D2TMi6ILELg60&callback=initMap")
