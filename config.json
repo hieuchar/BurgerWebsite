@@ -2,7 +2,7 @@
   "menu": [
       ["Home", "/"],
       ["Burgers", "/burgers"],
-      ["Sides", "/sides"],
+      ["Drinks", "/drinks"],
       ["Desserts", "/desserts"],
       ["Location", "/location"]
   ]

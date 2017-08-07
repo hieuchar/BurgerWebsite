@@ -1,0 +1,11 @@
+extends layout
+block content  
+    h2 Drinks
+    div(id="drinkDiv")
+        ul(id="drinkUL")
+            each val in images.drinks
+                li(id="drinkLI")
+                    img(id="drinkimage" src=val[0])
+                    div(id="drinkText")    
+                        h3=val[1]
+                        h5=val[2]

@@ -1,8 +1,8 @@
 {
     "homepage":{
-        "burger": "./Images/mediocreburger-home.jpg",
-        "slider": "./Images/mediocreslider-home.jpg",
-        "dessert": "./Images/mediocredessert-home.jpeg"    
+        "burger": ["./Images/mediocreburger-home.jpg", "Here we have some really mediocre burgers"],
+        "drink": ["./Images/mediocredrink-home.jpg", "We also offer some drinks"],
+        "dessert": ["./Images/mediocredessert-home.jpeg", "Our desserts are also mediocre"]    
     },
     "desserts":{
         "dessert1": ["./Images/dessertspage-dessert1.jpg", "Cranberry Surprise", "A nice cranberry cake with a surprise."],
@@ -17,5 +17,12 @@
         "pizzaburger": ["./Images/burgerpage-pizzaburger.jpg", "Pizza Burger", "Its a burger with pizza on top"],
         "portobelloburger": ["./Images/burgerpage-portobello.jpg", "Portobello Mushroom Burger","Its a burger with a portobello mushroom"],
         "dessert5": ["./Images/burgerpage-baconburger.jpg", "Bacon Burger","A burger with bacon instead of vegetables."]
-    }
+    },
+  "drinks": {
+        "burger1": ["./Images/drinkspage-drink1.jpg", "Coca-Cola", "A nice cold refreshing bottle of Coke™."],
+        "burger2": ["./Images/drinkspage-drink2.jpg", "Old Sprite","We also have old Sprite. Don't ask us where we got it."],
+        "pizzaburger": ["./Images/drinkspage-drink3.jpg", "Root Beer", "Root beer is great for cooling off."],
+        "portobelloburger": ["./Images/drinkspage-drink4.jpg", "Iced Tea","Tea is always a good drink to order with burgers"],
+        "dessert5": ["./Images/drinkspage-drink5.jpg", "Pink Lemonade","A nice cup of pink lemonade is sure to cool you down."]
+  }
 }
